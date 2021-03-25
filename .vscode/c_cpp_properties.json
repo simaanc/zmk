@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Sofle",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-arm",
+            "compilerPath": "${env:GNUARMEMB_TOOLCHAIN_PATH}/bin/arm-none-eabi-gcc.exe",
+            "compileCommands": "${workspaceFolder}/app/build/compile_commands.json"
+        }
+    ],
+    "version": 4
+}
