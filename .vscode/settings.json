@@ -1,6 +1,8 @@
 {
   "files.associations": {
     "*.overlay": "dts",
-    "*.keymap": "dts"
+    "*.keymap": "dts",
+    "event_manager.h": "c",
+    "service.h": "c"
   }
 }
